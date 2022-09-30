@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4830EE6A254CB3110008B345 /* kira_tmw.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_tmw.py; sourceTree = "<group>"; };
+		4830EE6C254CB4570008B345 /* kira_moderational.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_moderational.py; sourceTree = "<group>"; };
+		4830EE6D254CB4A80008B345 /* kira_botsetup.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_botsetup.py; sourceTree = "<group>"; };
+		4830EE6E254CB4DF0008B345 /* kira_music.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_music.py; sourceTree = "<group>"; };
+		4830EE6F254CB7EA0008B345 /* kira_other.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_other.py; sourceTree = "<group>"; };
+		4878C8582555F2D500ACA1CB /* kira_polls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_polls.py; sourceTree = "<group>"; };
+		4878C8592555F6F300ACA1CB /* kira_encryption.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_encryption.py; sourceTree = "<group>"; };
+		48A401872537A53E008DED6A /* kira.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira.py; sourceTree = "<group>"; };
+		48ED2C632550B08400BC2201 /* kira_imagesapi.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_imagesapi.py; sourceTree = "<group>"; };
+		48ED2C642550B53100BC2201 /* kira_interactions.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_interactions.py; sourceTree = "<group>"; };
+		48ED2C652552075800BC2201 /* kira_documentation.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_documentation.py; sourceTree = "<group>"; };
+		48ED2C66255211CE00BC2201 /* kira_token.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_token.py; sourceTree = "<group>"; };
+		48F46EFD2639FC3D000C5F2C /* kira_economy.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = kira_economy.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		48A4017C2537A511008DED6A = {
+			isa = PBXGroup;
+			children = (
+				48A401872537A53E008DED6A /* kira.py */,
+				48F46EFD2639FC3D000C5F2C /* kira_economy.py */,
+				4830EE6D254CB4A80008B345 /* kira_botsetup.py */,
+				4878C8592555F6F300ACA1CB /* kira_encryption.py */,
+				4878C8582555F2D500ACA1CB /* kira_polls.py */,
+				4830EE6E254CB4DF0008B345 /* kira_music.py */,
+				4830EE6C254CB4570008B345 /* kira_moderational.py */,
+				4830EE6A254CB3110008B345 /* kira_tmw.py */,
+				48ED2C632550B08400BC2201 /* kira_imagesapi.py */,
+				48ED2C642550B53100BC2201 /* kira_interactions.py */,
+				4830EE6F254CB7EA0008B345 /* kira_other.py */,
+				48ED2C652552075800BC2201 /* kira_documentation.py */,
+				48ED2C66255211CE00BC2201 /* kira_token.py */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		48A401812537A511008DED6A /* kirabot */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 48A401842537A511008DED6A /* Build configuration list for PBXLegacyTarget "kirabot" */;
+			buildPhases = (
+			);
+			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9;
+			dependencies = (
+			);
+			name = kirabot;
+			passBuildSettingsInEnvironment = 1;
+			productName = kirabot;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		48A4017D2537A511008DED6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					48A401812537A511008DED6A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 48A401802537A511008DED6A /* Build configuration list for PBXProject "kirabot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A4017C2537A511008DED6A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A401812537A511008DED6A /* kirabot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		48A401822537A511008DED6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		48A401832537A511008DED6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		48A401852537A511008DED6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6GS67JQ8S3;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48A401862537A511008DED6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6GS67JQ8S3;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A401802537A511008DED6A /* Build configuration list for PBXProject "kirabot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A401822537A511008DED6A /* Debug */,
+				48A401832537A511008DED6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A401842537A511008DED6A /* Build configuration list for PBXLegacyTarget "kirabot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A401852537A511008DED6A /* Debug */,
+				48A401862537A511008DED6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A4017D2537A511008DED6A /* Project object */;
+}
